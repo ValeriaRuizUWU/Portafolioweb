@@ -1,0 +1,112 @@
+
+*{
+    font-family:"Roboto", sans-serif ;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+
+header{
+    
+    min-height: 10vh;
+    font-size: 19px;
+
+}
+main{
+    
+    text-align: center;
+    min-height: 75vh;
+    font-size: 19px;
+    
+
+
+    
+
+    
+}
+footer{
+    
+    font-size: 19px;
+}
+#logo{
+    padding-top: 6em;
+    margin-bottom: 1em;
+
+}
+#buscador{
+    width: 40vw;
+    min-height: 50px;
+    border: 1px solid gainsboro;
+    border-radius: 25px;
+    background-color: white;
+
+    display:flex;
+    justify-content:center ;
+    align-items:center  ;
+    padding-left: 12px;
+    padding-right: 12px;
+
+
+}
+
+#buscador input{
+    flex-grow: 1;
+    outline: none;
+    border: none;
+}
+li{
+    display: inline-block;
+    padding: 12px;
+}
+
+footer ul{
+    display:inline-block ;
+}
+
+header ul{
+    text-align: end;
+}
+
+.icono{
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    width: 30px;
+    height: 30px;
+
+    border:none;
+
+}
+
+#menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+#contenedor-buscador{
+    display: flex;
+    justify-content: center ;
+}
+#botones-busqueda button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    
+}
+#botones-busqueda button:hover{
+    border: 1px solid #606161;
+}

@@ -1,0 +1,45 @@
+
+body{
+    background-color: antiquewhite;
+}
+
+h1{
+    background-color: white;
+    font-style: italic;
+    color: rosybrown;
+}
+
+#subtitulo{
+    font: size 35px;
+
+}
+
+p{
+
+    color: violet;
+    font-style: italic;
+}
+
+h2{
+    font-style: oblique;
+    color: salmon;
+}
+
+img{
+    padding: 15px;
+
+    height: 200px;
+}
+
+.DOG{
+    border: 15px solid rgb(250, 250, 131);
+
+}
+
+.CATT{
+    border: 15px solid rgb(144, 245, 144);
+}
+
+.CHICKEN{
+    border: 15px solid rgb(255, 217, 146);
+}
